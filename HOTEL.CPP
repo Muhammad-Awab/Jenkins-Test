@@ -439,7 +439,7 @@ for(int i=0; i<25; i++)
 
 char id[5],pass[7]; 
 // gotoxy(50, 15);
-cout<<"\n\n\xB2\xB2 Enter Username => ";
+cout<<"\n\n\xB2\xB2 Enter the Username => ";
 cin>>id;  
 // gotoxy(50, 17);
 cout<<"\n\xB2\xB2 Password => ";
