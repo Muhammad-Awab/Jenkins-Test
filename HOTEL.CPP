@@ -6,7 +6,6 @@
 #include<stdlib.h>
 // #include<dos.h>
 #include<string.h>
-#include<windows.h>
 #include <curses.h>
 // #include <windows.h>
 using namespace std;
@@ -455,7 +454,7 @@ cin>>id;
 cout<<"\n\xB2\xB2 Password => ";
 cin>>pass;
 if(id=="admin" && pass=="1234") {
-     gotoxy(60, 20);
+     //gotoxy(60, 20);
     cout<<"\n\nLogin Successfull...";
      getch();
 }
