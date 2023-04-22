@@ -441,10 +441,10 @@ for(int i=0; i<25; i++)
 
 char id[5],pass[7]; 
 // gotoxy(50, 15);
-cout<<"\n\n\xB2\xB2 Username  => ";
+cout<<"\n\n\xB2\xB2 Username of Hotel Management system => ";
 cin>>id;  
 // gotoxy(50, 17);
-cout<<"\n\xB2\xB2 Password => ";
+cout<<"\n\xB2\xB2 Enter Password => ";
 cin>>pass;
 
 
