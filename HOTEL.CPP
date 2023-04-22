@@ -441,23 +441,12 @@ for(int i=0; i<25; i++)
 
 char id[5],pass[7]; 
 // gotoxy(50, 15);
-cout<<"\n\n\xB2\xB2 Username => ";
+cout<<"\n\n\xB2\xB2 Username of Hotel Management system => ";
 cin>>id;  
 // gotoxy(50, 17);
 cout<<"\n\xB2\xB2 Password => ";
 cin>>pass;
-if(id=="admin" && pass=="1234") {
-     //gotoxy(60, 20);
-    cout<<"\n\nLogin Successfull...";
-     getch();
-}
-	else {
-    // gotoxy(60, 20);
-		cout<<"\n\nSorry, you are not authorised...";
-		 getch();
-		exit(-1);
-	}
- getch();
+
 
 h.main_menu();
 return 0;
